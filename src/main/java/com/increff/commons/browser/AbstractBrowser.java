@@ -1,4 +1,4 @@
-package com.nextscm.commons.browser;
+package com.increff.commons.browser;
 
 import java.io.File;
 import java.io.IOException;

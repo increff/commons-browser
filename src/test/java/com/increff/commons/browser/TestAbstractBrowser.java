@@ -1,4 +1,4 @@
-package com.nextscm.commons.browser;
+package com.increff.commons.browser;
 
 import org.apache.commons.io.FileUtils;
 import org.junit.Test;
@@ -13,7 +13,7 @@ public class TestAbstractBrowser {
     //@Test
     public void testAbstractBrowser() throws IOException, InterruptedException {
        BrowserFactory.setChromeDriverPath("C:\\ChromeWebdriver\\chromedriver.exe");
-       AbstractBrowser browser = new AbstractBrowser(new File("src/test/java/com/nextscm/commons/browser/resources"));
+       AbstractBrowser browser = new AbstractBrowser(new File("src/test/java/com/increff/commons/browser/resources"));
 
        //TODO: Use a reliable internal test file
        browser.navigate("https://file-examples-com.github.io/uploads/2017/02/zip_2MB.zip");
@@ -23,7 +23,7 @@ public class TestAbstractBrowser {
        File lastDownloadedFile = browser.getLastDownloadedFile();
        assertEquals("zip_2MB.zip", lastDownloadedFile.getName());
 
-        FileUtils.deleteDirectory(new File("src/test/java/com/nextscm/commons/browser/resources"));
+        FileUtils.deleteDirectory(new File("src/test/java/com/increff/commons/browser/resources"));
     }
 
 }
