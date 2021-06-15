@@ -17,7 +17,7 @@
 
 	<groupId>com.increff.commons</groupId>
 	<artifactId>increff-commons-browser</artifactId>
-	<version>1.1</version>
+	<version>1.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>increff-commons-browser</name>
@@ -144,7 +144,7 @@
 		<connection>scm:git:git://github.com/increff/commons-browser.git</connection>
 		<developerConnection>scm:git:git@github.com:increff/commons-browser.git</developerConnection>
 		<url>https://github.com/increff/commons-browser</url>
-		<tag>rel-increff-commons-browser-1.1</tag>
+		<tag>increff-commons-browser-1.0.0</tag>
 	</scm>
 
 	<licenses>
